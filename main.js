@@ -1,6 +1,8 @@
 'use strict'
 
 const botaoTrocarCor = document.getElementById('botao-trocar-cor')
+const botaoTrocarCorVermelho = document.getElementById('botao-trocar-vermelho')
+const botaoTrocarCorVerde = document.getElementById('botao-trocar-verde')
 
 function trocarCor() {
     const corUsuario = document.getElementById('cor-usuario').value
@@ -20,4 +22,14 @@ function trocarCor() {
         document.documentElement.style.setProperty('--color--bg', 'silver')
     }
 }
+function trocarCorVermelho(){
+    document.documentElement.style.setProperty('--color--bg', 'red')
+
+}
+function trocaCorVerde (){
+    document.documentElement.style.setProperty('--color--bg', 'green')
+}
 botaoTrocarCor.addEventListener('click', trocarCor)
+botaoTrocarCorVerde.addEventListener('click', trocaCorVerde)
+botaoTrocarCorVermelho.addEventListener('click',trocarCorVermelho)
+

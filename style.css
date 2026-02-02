@@ -23,6 +23,7 @@ button{
     width: 100px;;
     border-radius: 6px;
 }
+
 input[type="text"]{
     background-color: #fafafa;
     border: rgb(40, 38, 38) solid;
@@ -30,4 +31,12 @@ input[type="text"]{
     width: 200px;
     height: 30px;
     text-align: center;
+}
+#botao-trocar-verde{
+    background-color: green;
+    color: #fafafa;
+}
+#botao-trocar-vermelho{
+    background-color: red;
+    color: #fafafa;
 }
