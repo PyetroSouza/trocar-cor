@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+    --color--bg: #fafafa;
+}
+
+body{
+     height: 100dvh;  /*o body não ocupa a tela inteira */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--color--bg);
+}
+button{
+    height: 35px;
+    width: 100px;;
+    border-radius: 6px;
+}
+input[type="text"]{
+    background-color: #fafafa;
+    border: rgb(40, 38, 38) solid;
+    border-radius: 6px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
