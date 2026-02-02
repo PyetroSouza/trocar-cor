@@ -10,5 +10,14 @@ function trocarCor() {
     } else {
         document.documentElement.style.setProperty('--color--bg', corUsuario)
     }
+    if (corUsuario == 'azul'){
+        document.documentElement.style.setProperty('--color--bg', 'blue')
+    } else if (corUsuario == 'rosa'){
+        document.documentElement.style.setProperty('--color--bg', 'pink')
+    } else if (corUsuario == 'ouro')
+        document.documentElement.style.setProperty('--color--bg', 'gold')
+    else{
+        document.documentElement.style.setProperty('--color--bg', 'silver')
+    }
 }
 botaoTrocarCor.addEventListener('click', trocarCor)
